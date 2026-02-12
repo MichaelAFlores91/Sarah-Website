@@ -1,0 +1,22 @@
+/* Full galaxy background */
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, #7214ca, #470775);
+  overflow-x: hidden;
+}
+
+/* Stars */
+.star {
+  position: fixed;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: twinkle 6s infinite alternate;
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.2; }
+  100% { opacity: 1; }
+}
