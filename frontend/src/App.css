@@ -11,11 +11,11 @@ html, body {
     0 0 60px #8a2be2;
   font-weight: 700;
 }
-
-
-
-
-
+nav {
+  display: flex;
+  justify-content: center; /* centers nav items */
+  align-items: center;
+}
 /* NAVBAR */
 .navbar {
   display: flex;

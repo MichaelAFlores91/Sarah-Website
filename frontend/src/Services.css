@@ -1,0 +1,10 @@
+.center {
+    text-align: center;
+    color: beige;
+}
+
+.center-underline {
+    text-align: center;
+    color:beige;
+    text-decoration: underline;
+}
