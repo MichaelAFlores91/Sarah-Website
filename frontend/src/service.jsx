@@ -10,10 +10,7 @@ function ServiceSection({ title, children }) {
         {title} {open ? "▲" : "▼"}
       </h2>
 
-      <div className={`dropdown-content ${open ? "open" : ""}`}>
-  {children}
-</div>
-
+      {open && <div className="dropdown-content">{children}</div>}
     </div>
   );
 }

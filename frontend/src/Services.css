@@ -8,3 +8,37 @@
     color:beige;
     text-decoration: underline;
 }
+.dropdown-title {
+  cursor: pointer;
+  font-size: 26px;
+  margin-top: 20px;
+  color: beige;
+  transition: 0.2s;
+}
+
+.dropdown-title:hover {
+  color: white;
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.dropdown-content.open {
+  max-height: 2000px; /* big number so content fits */
+  opacity: 1;
+}
+
+
+.service-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
+}

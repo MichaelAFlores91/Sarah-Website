@@ -12,7 +12,6 @@ import GalaxyStars from './GalaxyStars';
 function App() {
   return (
     <Router>
-      <GalaxyStars />
       <Nav />
       <Routes>
         <Route path="/" element={<Homepage />} />
@@ -26,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+//<GalaxyStars /> between router and nav

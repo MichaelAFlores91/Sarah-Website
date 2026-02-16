@@ -9,7 +9,7 @@ export default function Homepage() {
       <h1 className="title">Houston Hair Alchemy</h1>
 
       <img
-        src="/love.jpg"
+        src="/svc.webp"
         alt="Love"
         className="hero-image"
       />
