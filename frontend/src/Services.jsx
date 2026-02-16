@@ -19,7 +19,7 @@ function ServiceSection({ title, children }) {
 }
 export default function Services() {
   return (
-    <div className="center">
+    <div className="center" id="text-color">
       <div className="center-underline">
         <h1>My Services</h1>
       </div>

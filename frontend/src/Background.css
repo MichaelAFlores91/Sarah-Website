@@ -1,7 +1,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  background: radial-gradient(circle at top, #6a0dad, #2b003f);
+  background-color: white;
   overflow-x: hidden;
 }
 
@@ -10,7 +10,7 @@ body {
   position: fixed;
   width: 3px;
   height: 3px;
-  background: rgba(255, 255, 255, 0.8);
+  background: purple;
   border-radius: 50%;
   animation: sparkle 6s linear infinite;
 }

@@ -37,7 +37,7 @@ export default function Gallery() {
 
   return (
     <>
-      <h1 className="center">MY GALLERY</h1>
+      <h1 className="center" id="text-color">MY GALLERY</h1>
 
       <div className="gallery-grid">
         {images.map((img, index) => (

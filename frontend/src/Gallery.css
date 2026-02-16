@@ -14,7 +14,10 @@
 
 .center {
     text-align: center;
-    color: beige;
+    color: purple;
+}
+#text-color {
+  color: purple;
 }
 
 .nav-btn {
