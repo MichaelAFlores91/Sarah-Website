@@ -19,15 +19,23 @@ export default function Homepage() {
 
 
       <div className="bio">
- <h2>Sarah Victoria is the kind of stylist who makes you feel comfortable the second you sit in her chair. She has a chill, grounded approach and a knack for creating hair that feels natural, intentional, and effortlessly wearable.
-
-Sarah Victoria believes a salon should feel welcoming to all people, free of judgement, and a place to practice self-care. She takes her time with each guest, listens closely, and makes sure you leave feeling confident. Sarah Victoria is especially great at figuring out what looks work best based on a clients personal style. Whether you’re low-maintenance, high-impact, or somewhere in between, she’ll meet you where you are.
-
-
-
-When she’s not doing hair, Sarah Victoria is hanging out with her puppies and fiancée, adding to her tattoo and piercing collection, watching horror movies, or indulging in a 90 Day Fiancé binge.
-
-Book with Sarah if you want a stylist who’s intuitive, fun and genuinely invested in making your hair feel like you.</h2>
+ <h2>Sarah Victoria is the kind of stylist who makes you feel comfortable the
+  second you sit in her chair. She has a chill, grounded approach and a knack
+  for creating hair that feels natural, intentional, and effortlessly wearable.</h2>
+<p></p>
+<h2>Sarah Victoria believes a salon should feel welcoming to all people, free
+  of judgement, and a place to practice self-care. She takes her time with each
+  guest, listens closely, and makes sure you leave feeling confident.
+  Sarah Victoria is especially great at figuring out what looks work best based
+  on a clients personal style. Whether you’re low-maintenance, high-impact, or
+  somewhere in between, she’ll meet you where you are.</h2>
+<p></p>
+<h2>When she’s not doing hair, Sarah Victoria is hanging out with her puppies and fiancée,
+   adding to her tattoo and piercing collection, watching horror movies, or indulging in a
+    90 Day Fiancé binge.</h2>
+<p></p>
+<h2>Book with Sarah if you want a stylist who’s intuitive, fun and genuinely invested in
+  making your hair feel like you.</h2>
 </div>
       <div>
         <h2>You can find me today at {" "}

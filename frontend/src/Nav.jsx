@@ -23,7 +23,7 @@ export default function Nav() {
         <ul className="nav-links">
           <li><Link to="/gallery">Gallery</Link></li>
           <li><Link to="/services">Services</Link></li>
-          <li><Link to="/other">Other</Link></li>
+          <li><Link to="/other">Magical People</Link></li>
         </ul>
       </div>
 
